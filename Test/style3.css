@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.test{
+    width: 100%;
+    height: 100vh;
+    background: url('test-img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
+}
+
+.test .que{
+    text-align: center;
+    font-size:x-large;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.674);
+}
+.test .vid{
+    border: 2px lightgray solid;
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    margin: 70px auto;
+    background-color: rgba(0, 0, 0, 0.317);
+}
+.test .lang{
+    text-align: center;
+    font-size: large;
+}
+/* change in css */
+.test .start{
+    text-align: center;
+}
+.test .btn{
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: 1px lightgrey solid;
+    background-color: rgba(0, 0, 0, 0.235);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.test .btn:hover{
+    padding: 10px 35px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border:2px lightgray solid;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+
+/* change over */
